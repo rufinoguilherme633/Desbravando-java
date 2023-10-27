@@ -1,6 +1,6 @@
 package livraria;
 
-public abstract class Livro {
+public abstract class Livro implements Produto {
 	private String nome;
 	private String descricao;
 	private double valor;
@@ -76,7 +76,7 @@ public abstract class Livro {
 	}
 
 	
-	public abstract boolean aplicaDescontoDe(double porcentagem);
+	//public abstract boolean aplicaDescontoDe(double porcentagem);
 
 //	public abstract boolean aplicaDescontoDe(double porcentagem) {
 ////		if (porcentagem > 0.3) {
