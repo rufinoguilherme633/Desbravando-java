@@ -1,4 +1,9 @@
-package livraria;
+package br.com.casadocodigo.teste;
+
+import br.com.casadocodigo.livraria.Autor;
+import br.com.casadocodigo.livraria.produtos.Ebook;
+import br.com.casadocodigo.livraria.produtos.Livro;
+import br.com.casadocodigo.livraria.produtos.LivroFisico;
 
 public class CadastroDeLivros {
 	public static void main(String[] args) {
@@ -27,7 +32,7 @@ public class CadastroDeLivros {
 		// livro.setAutor(autor);
 		livro.mostarDetalhes();
 
-		Livro OutroLivro = new Ebook(outroAutor);
+		Ebook OutroLivro = new Ebook(outroAutor);
 		OutroLivro.setNome("Lógica de programação");
 
 		OutroLivro.setDescricao("Crie seus primeiros programas");

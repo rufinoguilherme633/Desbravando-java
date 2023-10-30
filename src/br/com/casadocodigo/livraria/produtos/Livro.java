@@ -1,4 +1,6 @@
-package livraria;
+package br.com.casadocodigo.livraria.produtos;
+
+import br.com.casadocodigo.livraria.Autor;
 
 public abstract class Livro implements Produto {
 	private String nome;
@@ -58,7 +60,7 @@ public abstract class Livro implements Produto {
 		this.valor = valor;
 	}
 
-	void mostarDetalhes() {
+	public void mostarDetalhes() {
 		String mensagem = "Mostrar detalhes do livro";
 
 		System.out.println(mensagem);

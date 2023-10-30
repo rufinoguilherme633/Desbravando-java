@@ -1,4 +1,4 @@
-package livraria;
+package br.com.casadocodigo.teste;
 
 import java.util.SortedMap;
 
